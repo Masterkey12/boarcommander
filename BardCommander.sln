@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.33920.267
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BardCommander.Api", "BardCommander.Api\BardCommander.Api.csproj", "{58AA9B7D-CA33-482A-AD26-CE787C05F159}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B9600FCA-E67D-40A5-8D80-6DA306116934}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{ACBD977E-C9E8-4A17-98AB-7A473CF17477}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.BarCommander.Models", "Core.BarCommander.Models\Core.BarCommander.Models.csproj", "{1E5E6195-878C-4AC7-8C16-0A40523954B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service.BoardCommander.TcpCommunication", "Services\Service.BoardCommander.TcpCommunication\Service.BoardCommander.TcpCommunication.csproj", "{0E1C2AFA-0566-482A-9419-CC891E7AEB9D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.BoardCommander.Exceptions", "Core.BoardCommander.Exception\Core.BoardCommander.Exceptions.csproj", "{A80571CF-7D71-44CE-B58D-28525F6E9CAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.BoardCommander.DataBuilder", "Service.BoardCommander.DataBuilder\Service.BoardCommander.DataBuilder.csproj", "{7B73E81F-7734-468D-B9A7-D0F8635C4EE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58AA9B7D-CA33-482A-AD26-CE787C05F159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58AA9B7D-CA33-482A-AD26-CE787C05F159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58AA9B7D-CA33-482A-AD26-CE787C05F159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58AA9B7D-CA33-482A-AD26-CE787C05F159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E5E6195-878C-4AC7-8C16-0A40523954B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E5E6195-878C-4AC7-8C16-0A40523954B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E5E6195-878C-4AC7-8C16-0A40523954B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E5E6195-878C-4AC7-8C16-0A40523954B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E1C2AFA-0566-482A-9419-CC891E7AEB9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E1C2AFA-0566-482A-9419-CC891E7AEB9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E1C2AFA-0566-482A-9419-CC891E7AEB9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E1C2AFA-0566-482A-9419-CC891E7AEB9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A80571CF-7D71-44CE-B58D-28525F6E9CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A80571CF-7D71-44CE-B58D-28525F6E9CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A80571CF-7D71-44CE-B58D-28525F6E9CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A80571CF-7D71-44CE-B58D-28525F6E9CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B73E81F-7734-468D-B9A7-D0F8635C4EE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B73E81F-7734-468D-B9A7-D0F8635C4EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B73E81F-7734-468D-B9A7-D0F8635C4EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B73E81F-7734-468D-B9A7-D0F8635C4EE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1E5E6195-878C-4AC7-8C16-0A40523954B7} = {B9600FCA-E67D-40A5-8D80-6DA306116934}
+		{0E1C2AFA-0566-482A-9419-CC891E7AEB9D} = {ACBD977E-C9E8-4A17-98AB-7A473CF17477}
+		{A80571CF-7D71-44CE-B58D-28525F6E9CAE} = {B9600FCA-E67D-40A5-8D80-6DA306116934}
+		{7B73E81F-7734-468D-B9A7-D0F8635C4EE4} = {ACBD977E-C9E8-4A17-98AB-7A473CF17477}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FF2AD85-87F6-436C-8A6A-633E8E5C1C6D}
+	EndGlobalSection
+EndGlobal
